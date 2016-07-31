@@ -1,5 +1,5 @@
-var app = angular.module('myApp', ['ngRoute', 'ngMessages']) //configure routes
-    .config(function($routeProvider) {
+var app = angular.module('myApp', ['ngRoute', 'ngMessages', 'satellizer'])
+    .config(function($routeProvider, $authProvider) {
         $routeProvider
             .when('/', {
                 templateUrl: 'views/home.html',
@@ -18,4 +18,16 @@ var app = angular.module('myApp', ['ngRoute', 'ngMessages']) //configure routes
                 controller: 'DetailCtrl'
             })
             .otherwise('/');
+        $authProvider.loginUrl = 'http://localhost:3000/auth/login';
+        $authProvider.signupUrl = 'http://localhost:3000/auth/signup';
+        $authProvider.oauth2({
+            name: 'instagram',
+            url: 'http://localhost:3000/auth/instagram',
+            redirectUri: 'http://localhost:8000',
+            clientId: '89c470e1785c472db0e9d5ee4f2bab27',
+            requiredUrlParams: ['scope'],
+            scope: ['likes', 'comments', 'public_content', 'follower_list', 'relationships'],
+            scopeDelimiter: '+',
+            authorizationEndpoint: 'https://api.instagram.com/oauth/authorize'
+        });
     });
