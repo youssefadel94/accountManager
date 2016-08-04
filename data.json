@@ -1,7 +1,8 @@
+{
+    "CLIENT ID": "89c470e1785c472db0e9d5ee4f2bab27",
+    "CLIENT SECRET": "5668708e1ba94d3db261f8131705d565",
+    "WEBSITE URL": "http://localhost:8000",
+    "REDIRECT URI": "http://localhost:8000",
+    "SUPPORT EMAIL": "youssefadel94@hotmail.com"
 
-CLIENT INFO
-CLIENT ID	89c470e1785c472db0e9d5ee4f2bab27
-CLIENT SECRET	5668708e1ba94d3db261f8131705d565
-WEBSITE URL	http://localhost:8000
-REDIRECT URI	http://localhost:8000
-SUPPORT EMAIL	youssefadel94@hotmail.com
+}
