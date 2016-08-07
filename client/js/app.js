@@ -31,4 +31,4 @@ var app = angular.module('myApp', ['ngRoute', 'ngMessages', 'satellizer'])
             authorizationEndpoint: 'https://api.instagram.com/oauth/authorize'
         });
     });
-//{"Token":"ef74eefc6cc08be98b10d3b6cfe15cdafbdf5457","Gist":"33eb5dbab9dd725e5e89393c4f4ec0ea"}
+                //{"Token":"ef74eefc6cc08be98b10d3b6cfe15cdafbdf5457","Gist":"33eb5dbab9dd725e5e89393c4f4ec0ea"}
