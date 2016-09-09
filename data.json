@@ -3,6 +3,6 @@
     "CLIENT SECRET": "5668708e1ba94d3db261f8131705d565",
     "WEBSITE URL": "http://localhost:8000",
     "REDIRECT URI": "http://localhost:8000",
-    "SUPPORT EMAIL": "youssefadel94@hotmail.com"
-
+    "SUPPORT EMAIL": "youssefadel94@hotmail.com",
+    "URL-TUT": "https://hackhands.com/building-instagram-clone-angularjs-satellizer-nodejs-mongodb/"
 }
